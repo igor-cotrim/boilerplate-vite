@@ -1,9 +1,9 @@
-const Main = () => {
-  return (
-    <main>
-      <h1>Boilerplate viteess</h1>
-    </main>
-  )
-}
+import * as S from './styles'
+
+const Main = () => (
+  <S.Wrapper>
+    <S.Title>Boilerplate Vite</S.Title>
+  </S.Wrapper>
+)
 
 export default Main
