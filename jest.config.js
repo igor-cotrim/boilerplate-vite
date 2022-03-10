@@ -14,5 +14,6 @@ module.exports = {
   // setupFilesAfterEnv: ['jest-extended'],
   resetMocks: true,
   testEnvironment: 'jsdom',
+  collectCoverageFrom: ['src/**/*.ts(x)?', '!src/**/stories.tsx'],
   setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts']
 }
