@@ -1,8 +1,10 @@
 import { render, screen } from '@testing-library/react'
-import Main from '.'
-describe('<Main />', () => {
+
+import ExampleComponent from '.'
+
+describe('#ExampleComponent', () => {
   it('should render the heading', () => {
-    const { container } = render(<Main />)
+    const { container } = render(<ExampleComponent />)
     expect(
       screen.getByRole('heading', { name: /Boilerplate Vite/i })
     ).toBeInTheDocument()
@@ -11,7 +13,7 @@ describe('<Main />', () => {
   })
 
   it('should render the colors correctly', () => {
-    const { container } = render(<Main />)
+    const { container } = render(<ExampleComponent />)
 
     expect(container.firstChild).toHaveStyle({ 'background-color': '#06092b' })
   })

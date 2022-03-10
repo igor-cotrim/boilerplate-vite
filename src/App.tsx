@@ -1,5 +1,5 @@
-import Main from './components/Main'
+import ExampleComponent from './components/example-component'
 
-const Home = () => <Main />
+const Home = () => <ExampleComponent />
 
 export default Home
