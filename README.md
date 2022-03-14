@@ -14,6 +14,14 @@ This project uses lot of stuff as:
 - [Husky](https://github.com/typicode/husky)
 - [Plop](https://plopjs.com)
 
+## Use Boilerplate
+
+```bash
+git clone https://github.com/igor-cotrim/boilerplate-vite <YOUR_PROJECT_NAME>
+```
+
+or use this github Template
+
 ## Getting Started
 
 First, run the development server:
@@ -42,7 +50,7 @@ You can start editing the page by modifying `src/App.tsx`. The page auto-updates
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Vite, take a look at the following resources:
 
 - [Vite Documentation](https://vitejs.dev/guide/) - learn about Vite features and API.
 
